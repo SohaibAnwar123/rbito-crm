@@ -1,0 +1,43 @@
+<svg id="HOT" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="62" height="30" viewBox="0 0 62 30">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="gray"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_147957" data-name="Rectangle 147957" width="62" height="30" rx="15" fill="url(#linear-gradient)"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-2" x1="0.066" y1="0.031" x2="0.968" y2="1.006" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#6715ff"/>
+      <stop offset="0.005" stop-color="#641dff"/>
+      <stop offset="0.037" stop-color="#5553ff"/>
+      <stop offset="0.069" stop-color="#4781ff"/>
+      <stop offset="0.101" stop-color="#3da7ff"/>
+      <stop offset="0.133" stop-color="#34c4ff"/>
+      <stop offset="0.165" stop-color="#2ed9ff"/>
+      <stop offset="0.195" stop-color="#2be5ff"/>
+      <stop offset="0.225" stop-color="#2aeaff"/>
+      <stop offset="0.253" stop-color="#2ce1ff"/>
+      <stop offset="0.298" stop-color="#32cbff"/>
+      <stop offset="0.353" stop-color="#3da6ff"/>
+      <stop offset="0.416" stop-color="#4b73ff"/>
+      <stop offset="0.486" stop-color="#5e33ff"/>
+      <stop offset="0.492" stop-color="#602dff"/>
+      <stop offset="0.529" stop-color="#525aff"/>
+      <stop offset="0.567" stop-color="#4783ff"/>
+      <stop offset="0.606" stop-color="#3da4ff"/>
+      <stop offset="0.646" stop-color="#36beff"/>
+      <stop offset="0.687" stop-color="#31d1ff"/>
+      <stop offset="0.73" stop-color="#2edcff"/>
+      <stop offset="0.777" stop-color="#2de0ff"/>
+      <stop offset="0.809" stop-color="#31d0fe"/>
+      <stop offset="0.871" stop-color="#3ea8fd"/>
+      <stop offset="0.956" stop-color="#5167fb"/>
+      <stop offset="1" stop-color="#5d43fa"/>
+    </linearGradient>
+  </defs>
+  <g id="Mask_Group_1" data-name="Mask Group 1" clip-path="url(#clip-path)">
+    <rect id="Rectangle_147959" data-name="Rectangle 147959" width="160.853" height="47.637" transform="translate(0 -8.819)" fill="url(#linear-gradient-2)"/>
+  </g>
+  <text id="HOT_" data-name="HOT!" transform="translate(8.5 7.5)" fill="#fff" font-size="12" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="-15.414" y="12">HOT!</tspan></text>
+</svg>

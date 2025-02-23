@@ -1,0 +1,232 @@
+.fa-2x {
+    font-size: 2em;
+}
+
+.fa {
+    position: relative;
+    display: table-cell;
+    width: 60px;
+    height: 36px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 20px;
+}
+
+
+
+
+
+.main-menu:hover,
+nav.main-menu.expanded {
+    width: 276px;
+
+    .userinfo {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    hr {
+        margin: 35px 36px 35px 26px;
+    }
+
+    .notiNumber {
+        transform: translate(190px, 10px);
+    }
+}
+
+.main-menu {
+    background: #fff;
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    width: 97px;
+    overflow: hidden;
+    transition: 0.5s ease;
+    z-index: 1000;
+    padding: 44px 0 52px;
+    overflow-y: auto;
+
+    &::-webkit-scrollbar-track {
+        background-color: #F5F5F5;
+    }
+
+    &::-webkit-scrollbar {
+        width: 4px;
+        background-color: #F5F5F5;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: #7F8FA4;
+    }
+
+    .nav-icon {
+        position: relative;
+        display: table-cell;
+        width: 40px;
+        text-align: center;
+        vertical-align: middle;
+
+        svg {
+            fill: #7F8FA4;
+        }
+
+        .sticon {
+            fill-rule: evenodd;
+            clip-rule: evenodd;
+            fill: #7F8FA4;
+        }
+    }
+
+    .nav-text {
+        position: relative;
+        display: table-cell;
+        vertical-align: middle;
+        width: 190px;
+        padding-left: 29px;
+        font-size: 15px;
+        font-weight: 500;
+        color: #7F8FA4;
+        line-height: 19px;
+
+    }
+
+    hr {
+        background-color: #7F8FA4;
+        transition: 0.5s ease;
+        margin: 35px 16px 35px 26px;
+        // opacity: 1;
+    }
+
+    ul {
+        padding-left: 34px;
+
+        &.menu__settings {
+            li {
+                &+li {
+                    margin-top: 26px;
+                }
+            }
+        }
+
+        &.menuNotification {
+            li {
+                &+li {
+                    margin-top: 34px;
+                }
+            }
+        }
+
+        li {
+            &+li {
+                margin-top: 40px;
+            }
+
+            a {
+                position: relative;
+                display: table;
+                border-collapse: collapse;
+                border-spacing: 0;
+                text-decoration: none;
+                transition: .5s ease;
+
+                &:hover,
+                &.active,
+                &.campaignLink {
+                    .nav-text {
+                        color: #4BCFDA;
+                        font-weight: 700;
+                    }
+
+                    .nav-icon {
+                        svg {
+                            fill: #4BCFDA;
+                        }
+
+                        .sticon {
+                            fill-rule: evenodd;
+                            clip-rule: evenodd;
+                            fill: #4BCFDA;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.hotOffer {
+    width: 62px;
+    height: 30px;
+    border-radius: 15px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 700;
+}
+
+.main-menu__logo {
+    width: 276px;
+    margin-left: 29px;
+}
+
+.notiNumber {
+    background: #4BCFDA;
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    font-weight: 500;
+    transition: 0.5s ease;
+    position: absolute;
+    left: 16px;
+    top: -8px;
+}
+
+.userinfo {
+    padding-left: 34px;
+    margin: 33px 0 36px;
+    display: grid;
+    opacity: 0;
+    transition: 0.5s ease;
+    visibility: hidden;
+
+    h6 {
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 19px;
+        margin-bottom: 6px;
+    }
+
+    p {
+        font-size: 12px;
+        line-height: 15px;
+        margin-bottom: 0;
+    }
+}
+
+
+
+.main-menu li {
+    position: relative;
+    display: block;
+    width: 276px;
+}
+
+
+
+
+.main-menu>ul.logout {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}

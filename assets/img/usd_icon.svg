@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="104" height="103" viewBox="0 0 104 103">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_147975" data-name="Rectangle 147975" width="104" height="103" transform="translate(2370 -3768)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <filter id="Rectangle_5" x="-41.5" y="-22.5" width="167" height="166" filterUnits="userSpaceOnUse">
+      <feOffset dx="-10" dy="9" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10.5" result="blur"/>
+      <feFlood flood-color="#8098d5" flood-opacity="0.075"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Mask_Group_2" data-name="Mask Group 2" transform="translate(-2370 3768)" clip-path="url(#clip-path)">
+    <g id="Group_68092" data-name="Group 68092" transform="translate(1337 -4025)">
+      <g transform="matrix(1, 0, 0, 1, 1033, 257)" filter="url(#Rectangle_5)">
+        <rect id="Rectangle_5-2" data-name="Rectangle 5" width="104" height="103" rx="51.5" fill="#56d2dc"/>
+      </g>
+      <g id="tether-usdt-logo_1_" data-name="tether-usdt-logo (1)" transform="translate(1038.787 272.062)">
+        <path id="Path_35813" data-name="Path 35813" d="M98.712,68.7h0c-.327.025-2.015.125-5.781.125-3,0-5.122-.09-5.868-.125h0c-11.575-.509-20.215-2.524-20.215-4.937s8.64-4.425,20.215-4.942V66.7c.757.054,2.924.182,5.92.182,3.594,0,5.394-.15,5.718-.18V58.83c11.55.515,20.171,2.53,20.171,4.937S110.255,68.189,98.7,68.7h0Zm0-10.687V50.972h16.119V40.23H70.944V50.972H87.061v7.041c-13.1.6-22.951,3.2-22.951,6.306s9.851,5.7,22.951,6.306V93.2H98.71V70.617c13.07-.6,22.9-3.194,22.9-6.3s-9.827-5.7-22.9-6.3h0ZM98.712,58.013Z" transform="translate(-46.65 -29.276)" fill="#fff" fill-rule="evenodd"/>
+      </g>
+    </g>
+  </g>
+</svg>

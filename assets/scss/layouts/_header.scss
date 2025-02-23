@@ -1,0 +1,54 @@
+.header {
+    padding-top: 60px;
+    text-align: right;
+    padding-bottom: 95px;
+
+    &__coins {
+        display: inline-flex;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: -10px 9px 21px #8098D513;
+        border-radius: 17px;
+        padding: 10px 20px;
+
+        li {
+            position: relative;
+
+            &+li {
+                padding-left: 24px;
+                margin-left: 20px;
+
+                &::before {
+                    content: '';
+                    height: 33px;
+                    width: 1px;
+                    opacity: 0.5;
+                    background: #7F8FA4;
+                    display: inline-block;
+                    position: absolute;
+                    left: 0;
+                    top: 50%;
+                    transform: translateY(-50%);
+                }
+            }
+
+            a {
+                display: flex;
+                align-items: center;
+            }
+
+            p {
+                margin-left: 10px;
+                color: #7F8FA4;
+                margin-bottom: 0;
+
+                span {
+                    margin-left: 10px;
+                    color: #11141A;
+                    font-weight: 600;
+                    display: block;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

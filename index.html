@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="./assets/css/style.min.css">
+</head>
+
+<body>
+
+    <div class="signup">
+        <div class="container-fluid h-100 px-0">
+            <div class="row h-100">
+                <div class="col-lg-7">
+                    <div class="signup__logo">
+                        <img src="./assets/img/logo.png" alt="logo" class="d-lg-block d-none">
+                        <img src="./assets/img/logo-mobile.png" alt="logo" class="d-lg-none">
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="signup__form">
+                        <h1>Sign Up</h1>
+                        <form action="#">
+                            <p>Already have an account? <a href="signin.html">Sign In</a></p>
+                            <div class="form-group">
+                                <label for="fullname" class="form-label">Full Name</label>
+                                <input type="email" class="form-control" id="fullname" placeholder="Type Here...">
+                            </div>
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="Type Here...">
+                            </div>
+                            <div class="form-group">
+                                <label for="password" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="password" placeholder="Type Here...">
+                                <span toggle="#password" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+                            </div>
+                            <div class="form-group form-check d-flex align-items-center justify-content-center ps-0">
+                                <input type="checkbox" class="form-check-input" id="privacypolicy">
+                                <label class="form-check-label" for="privacypolicy">I agree to the <a
+                                        href="privacy-policy.html">privacy policy</a></label>
+                            </div>
+                            <div class="signup__form__lang">
+                                <a href="#">
+                                    <img src="./assets/img/lang1.png" alt="lang">
+                                </a>
+                                <a href="#">
+                                    <img src="./assets/img/lang2.png" alt="lang">
+                                </a>
+                                <a href="#">
+                                    <img src="./assets/img/lang3.png" alt="lang">
+                                </a>
+                            </div>
+                            <button type="submit">Sign Up</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./assets/js/jquery-3.1.1.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+
+</body>
+
+</html>

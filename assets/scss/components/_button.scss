@@ -1,0 +1,54 @@
+.theme-btn {
+  background: #4BCFDA;
+  border-radius: 13px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  display: inline-block;
+  text-align: center;
+  letter-spacing: 0;
+  box-shadow: none;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s ease;
+  padding: 12px 37px;
+
+  span {
+    margin-left: 8px;
+  }
+
+  &.dark-btn {
+    background: $primary-color;
+    color: #fff;
+
+    &:hover {
+      color: $primary-color;
+      background: #E5EDF4;
+    }
+  }
+
+  &:hover {
+    background: $primary-color;
+    color: #fff;
+
+    svg {
+      path {
+        fill: #fff;
+      }
+    }
+  }
+
+  &:disabled {
+    background: #F2F2F2;
+    color: #CCCCCC;
+
+    &:hover {
+      background: #F2F2F2;
+      color: #CCCCCC;
+    }
+  }
+
+}

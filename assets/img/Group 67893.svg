@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="113" height="113" viewBox="0 0 113 113">
+  <defs>
+    <filter id="Rectangle_5" x="0" y="0" width="113" height="113" filterUnits="userSpaceOnUse">
+      <feOffset dx="-10" dy="9" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10.5" result="blur"/>
+      <feFlood flood-color="#8098d5" flood-opacity="0.075"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_67893" data-name="Group 67893" transform="translate(-1343.5 -276.155)">
+    <g transform="matrix(1, 0, 0, 1, 1343.5, 276.16)" filter="url(#Rectangle_5)">
+      <rect id="Rectangle_5-2" data-name="Rectangle 5" width="50" height="50" rx="25" transform="translate(41.5 22.5)" fill="#56d2dc"/>
+    </g>
+    <g id="tether-usdt-logo_1_" data-name="tether-usdt-logo (1)" transform="translate(1396.181 311.512)">
+      <path id="Path_35813" data-name="Path 35813" d="M80.752,53.924h0c-.157.012-.969.06-2.78.06-1.441,0-2.463-.043-2.822-.06h0c-5.567-.245-9.722-1.214-9.722-2.374s4.155-2.128,9.722-2.377v3.786c.364.026,1.407.088,2.847.088,1.729,0,2.594-.072,2.75-.086V49.176c5.555.248,9.7,1.217,9.7,2.374s-4.145,2.127-9.7,2.373h0Zm0-5.14V45.4h7.753V40.23H67.4V45.4h7.751v3.387c-6.3.289-11.039,1.537-11.039,3.033s4.738,2.742,11.039,3.033V65.706h5.6V54.845c6.286-.289,11.016-1.536,11.016-3.03s-4.726-2.741-11.016-3.032h0Zm0,0Z" transform="translate(-64.11 -40.23)" fill="#fff" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>
